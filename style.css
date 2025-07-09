@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+body{
+    background-image: linear-gradient(to right, black, aquamarine, black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.entrada{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    gap: 40px;
+    margin-left: 4%;
+}
+
+#inputt{
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid #161616;
+    height: 25px;
+    width: 90%;
+    font-weight: 500px;
+    padding-left: 4%;
+    color: #161616;
+}
+
+.box{
+    background-color: #fff;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgb(249, 2, 80);
+    padding: 4%;
+}
+
+#p1{
+    color: #161616;
+    display: flex;
+    font-weight: 550;
+    padding-bottom: 25px;
+}
+
+#botao{
+    border-radius: 15px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: #0b6913;
+    color: #fff;
+    font-size: 1.1em;
+}
+.actividades{
+    display: flex;
+    font-size: 1.1m;
+    gap: 20px;
+}
+
+#botao2{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: #ccc3c3;
+    outline: none;
+    border: none;
+    color: red;
+}
+
+#botao2:hover{
+    background-color: red;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+}
